@@ -2,11 +2,11 @@
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
 model Song {
-id String @id @default(cuid())
-title String
-artist String
-genres String
-moods String
-licenses String
-audioFile String
+  id        String   @id @default(cuid())
+  title     String
+  artist    String
+  genres    String
+  moods     String
+  licenses  String
+  audioFile String
 }

@@ -9,6 +9,6 @@ export default defineConfig({
     path: "prisma/migrations",
   },
   datasource: {
-    url: process.env["DATABASE_URL"],
+    url: /workspaces/MixAtMartinDEMO/music-licensing-db/public/audio["DATABASE_URL"],
   },
 });
